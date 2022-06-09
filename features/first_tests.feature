@@ -11,4 +11,4 @@ Feature: User is able to convert area units
       And I see "Sq Metre" in To header
       When I click on Swap button
       Then I see "Sq Metre" in From header
-      And I see "Sq kilometre" in To header
+      And I see "Sq Kilometre" in To header

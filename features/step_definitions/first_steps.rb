@@ -11,7 +11,7 @@ And(/^I see "([^"]*)" in From header$/) do |value|
 end
 
 And(/^I see "([^"]*)" in To header$/) do |value|
-  actual_value = find_element(id:"header_text_unit_from").text
+  actual_value = find_element(id:"header_text_unit_to").text
   if(actual_value!=value)
     fail("Expected value is #{value}, but actual value was #{actual_value}!")
   end
